@@ -1,0 +1,24 @@
+# AdvancedPots - Configuración
+# Plugin optimizado para PvP
+
+# Cantidad de vida que restaura cada poción (en puntos de vida)
+# 1 corazón = 2 puntos de vida
+# Valor por defecto: 5.3 (2.65 corazones)
+healing-amount: 5.3
+
+# Distancia máxima para que las pociones splash curen al jugador
+# Se mide en bloques desde donde impacta la poción
+# Valor por defecto: 5.5 bloques
+splash-max-distance: 5.5
+
+# Habilitar o deshabilitar pociones splash de curación
+# true = activado | false = desactivado
+enable-splash-potions: true
+
+# Habilitar o deshabilitar pociones bebibles de curación instantánea
+# true = activado | false = desactivado
+enable-drinkable-potions: true
+
+# Reproducir sonido al curarse
+# true = activado | false = desactivado
+play-sounds: true
